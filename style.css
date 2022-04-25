@@ -300,10 +300,6 @@
     width: 80%;
 }
 
-.main .img__container{
-    background-color: red;
-    /* height: 200px; */
-}
 
 /* mobile Responsive */
 @media screen and (max-width: 768px) {
@@ -356,6 +352,10 @@
     .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+    }
+
+    .main__container {
+        display: grid;
     }
 }
     
